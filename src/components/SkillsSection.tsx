@@ -123,7 +123,7 @@ const SkillsSection = () => {
         {/* Skills Highlights */}
         <div className="mt-16 text-center">
           <h3 className="text-2xl font-semibold text-foreground mb-8">Key Strengths</h3>
-          <div className="grid md:grid-cols-3 gap-8">
+          <div className="grid md:grid-cols-2 gap-8 max-w-4xl mx-auto">
             <div className="p-6">
               <div className="bg-accent/10 p-4 rounded-full w-16 h-16 mx-auto mb-4">
                 <Code className="h-8 w-8 text-accent mx-auto mt-1" />
