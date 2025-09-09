@@ -7,7 +7,7 @@ const ExperienceSection = () => {
     {
       title: 'Teaching Assistant',
       company: 'Bits and Bytes Programming Institute',
-      location: 'Remote',
+      location: 'Offline',
       duration: 'April 2024 - July 2024',
       type: 'Internship',
       icon: Users,
@@ -30,7 +30,7 @@ const ExperienceSection = () => {
     {
       title: 'Research Intern - IoT & Machine Learning',
       company: 'MITW: Anomaly Detection Project',
-      location: 'Remote',
+      location: 'Offline',
       duration: 'May 2025 - July 2025',
       type: 'Research Internship',
       icon: Brain,

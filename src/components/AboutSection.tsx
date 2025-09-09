@@ -74,7 +74,7 @@ const AboutSection = () => {
                     </div>
                     <p className="text-sm text-muted-foreground mt-2">
                       Relevant Coursework: Data Structures, Operating Systems, Computer Networks, 
-                      Discrete Mathematics, Theory of Computation, Algorithm Design
+                      Discrete Mathematics, Theory of Computation, Algorithm Design, Discrete Mathematics
                     </p>
                   </div>
                 </div>

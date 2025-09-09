@@ -19,7 +19,7 @@ const SkillsSection = () => {
     {
       title: 'Web Technologies',
       icon: Globe,
-      skills: ['HTML', 'CSS', 'JavaScript', 'React', 'Node.js'],
+      skills: ['HTML', 'CSS', 'JavaScript'],
       color: 'bg-secondary/50 text-primary'
     },
     {
@@ -31,7 +31,7 @@ const SkillsSection = () => {
     {
       title: 'Specialized Skills',
       icon: Cpu,
-      skills: ['Java Networking', 'Multi-threading', 'Java Swing', 'Java NIO', 'Data Structures & Algorithms'],
+      skills: ['Java Networking', 'Multi-threading', 'Java Swing', 'Java NIO', 'Data Structures & Algorithms', 'Machine Learning', 'Deep Learning'],
       color: 'bg-accent/10 text-accent'
     }
   ];
@@ -140,15 +140,6 @@ const SkillsSection = () => {
               <h4 className="font-semibold text-foreground mb-2">Machine Learning</h4>
               <p className="text-muted-foreground text-sm">
                 Experience with ML algorithms, reinforcement learning, and anomaly detection systems.
-              </p>
-            </div>
-            <div className="p-6">
-              <div className="bg-accent/10 p-4 rounded-full w-16 h-16 mx-auto mb-4">
-                <Globe className="h-8 w-8 text-accent mx-auto mt-1" />
-              </div>
-              <h4 className="font-semibold text-foreground mb-2">Full-Stack Development</h4>
-              <p className="text-muted-foreground text-sm">
-                Comprehensive understanding of both front-end and back-end technologies for complete solutions.
               </p>
             </div>
           </div>

@@ -77,13 +77,13 @@ const ContactSection = () => {
     {
       icon: Github,
       label: 'GitHub',
-      href: 'https://github.com/SatyaSaketh',
+      href: 'https://github.com/BSatya-Saketh',
       color: 'hover:text-accent'
     },
     {
       icon: Linkedin,
       label: 'LinkedIn',
-      href: 'https://linkedin.com/in/Satya-Saketh',
+      href: 'https://linkedin.com/in/satya-saketh-bollepally',
       color: 'hover:text-primary'
     },
     {
@@ -295,7 +295,7 @@ const ContactSection = () => {
               <Button 
                 size="lg"
                 variant="outline"
-                onClick={() => window.open('https://linkedin.com/in/Satya-Saketh', '_blank')}
+                onClick={() => window.open('https://linkedin.com/in/satya-saketh-bollepally', '_blank')}
                 className="hover-lift"
               >
                 <Linkedin className="h-5 w-5 mr-2" />

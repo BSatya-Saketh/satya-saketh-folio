@@ -66,7 +66,7 @@ const HeroSection = () => {
           {/* Social Links */}
           <div className="flex justify-center space-x-6 fade-in-delay-3">
             <a
-              href="https://github.com/SatyaSaketh"
+              href="https://github.com/BSatya-Saketh"
               target="_blank"
               rel="noopener noreferrer"
               className="text-white/80 hover:text-white transition-smooth hover-lift p-2"
@@ -74,7 +74,7 @@ const HeroSection = () => {
               <Github className="h-6 w-6" />
             </a>
             <a
-              href="https://linkedin.com/in/Satya-Saketh"
+              href="https://linkedin.com/in/satya-saketh-bollepally"
               target="_blank"
               rel="noopener noreferrer"
               className="text-white/80 hover:text-white transition-smooth hover-lift p-2"

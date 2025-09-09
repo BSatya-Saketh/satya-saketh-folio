@@ -8,7 +8,7 @@ const ProjectsSection = () => {
     {
       title: 'Multi-Client Communication System',
       description: 'A real-time chat system with GUI-based client and server control panel using Java Swing. Features multi-threaded socket programming for simultaneous communication between multiple clients.',
-      technologies: ['Java', 'Java Swing', 'Socket Programming', 'Multi-threading', 'GUI Design'],
+      technologies: ['Java', 'Java Swing', 'Java NIO','Socket Programming', 'Multi-threading', 'GUI Design'],
       features: [
         'Real-time messaging between multiple clients',
         'Custom message framing protocol',
@@ -18,13 +18,12 @@ const ProjectsSection = () => {
       ],
       icon: MessageSquare,
       color: 'bg-accent/10 text-accent',
-      github: '#',
-      demo: '#'
+      github: 'https://github.com/BSatya-Saketh/Projects/tree/main/Multi-Client%20Communication'
     },
     {
       title: 'Career Guidance Website for Rural Students',
       description: 'A comprehensive web platform designed to help rural students make informed decisions about their educational paths after 10th and 12th grade, including information about entrance exams.',
-      technologies: ['HTML', 'CSS', 'JavaScript', 'GitHub Pages', 'Responsive Design'],
+      technologies: ['HTML', 'CSS', 'Bootstrap', 'GitHub Pages', 'Responsive Design'],
       features: [
         'Information about available streams after 10th & 12th',
         'Details about entrance exams for renowned institutions',
@@ -34,13 +33,13 @@ const ProjectsSection = () => {
       ],
       icon: GraduationCap,
       color: 'bg-primary/10 text-primary',
-      github: '#',
-      demo: '#'
+      github: 'https://github.com/BSatya-Saketh/What-s-Next-Project',
+      demo: 'https://bsatya-saketh.github.io/What-s-Next-Project/'
     },
     {
       title: 'Anomaly Detection using Reinforcement Learning',
       description: 'Advanced machine learning project implementing a custom RL environment to model IoT network traffic using the WUSTL IOT 2021 dataset with exceptional performance metrics.',
-      technologies: ['Python', 'PyTorch', 'Reinforcement Learning', 'DQN', 'IoT Security', 'Data Analysis'],
+      technologies: ['Python', 'PyTorch', 'Reinforcement Learning', 'QN', 'DQN', 'IoT Security', 'Data Analysis'],
       features: [
         'Custom RL environment for IoT network modeling',
         '98% accuracy with 88% precision',
@@ -50,8 +49,7 @@ const ProjectsSection = () => {
       ],
       icon: Brain,
       color: 'bg-accent/10 text-accent',
-      github: '#',
-      demo: '#',
+      github: 'https://github.com/BSatya-Saketh/Projects/tree/main/Reinforcement%20Learning%201',
       metrics: {
         accuracy: '98%',
         precision: '88%',
@@ -188,7 +186,7 @@ const ProjectsSection = () => {
             <Button 
               size="lg"
               className="hover-lift shadow-elegant"
-              onClick={() => window.open('https://github.com/SatyaSaketh', '_blank')}
+              onClick={() => window.open('https://github.com/BSatya-Saketh/Projects', '_blank')}
             >
               <Github className="h-5 w-5 mr-2" />
               View All Projects
