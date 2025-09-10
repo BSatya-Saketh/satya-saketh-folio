@@ -20,7 +20,7 @@ const HeroSection = () => {
           {/* Profile Image */}
           <div className="mb-8 fade-in">
             <img
-              src={profile-photo}
+              src={profilePhoto}
               alt="Satya Saketh Bollepally"
               className="w-40 h-40 rounded-full mx-auto border-4 border-white/20 shadow-glow object-cover"
             />
